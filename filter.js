@@ -6,17 +6,9 @@
 var eql = require('mongo-eql');
 var ops = require('./ops');
 var debug = require('debug')('mongo-query');
-var object, type, dot;
-
-try {
-  dot = require('dot');
-  type = require('type');
-  object = require('object');
-} catch(e){
-  dot = require('dot-component');
-  type = require('type-component');
-  object = require('object-component');
-}
+var dot = require('dot');
+var type = require('type');
+var object = require('object');
 
 /**
  * Module exports.
