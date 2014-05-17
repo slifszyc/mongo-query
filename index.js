@@ -6,9 +6,9 @@
 var mods = require('./mods');
 var filter = require('./filter');
 var debug = require('debug')('mongo-query');
-var type = require('type-component');
-var object = require('object-component');
-var dot = require('dot-component');
+var type = require('type');
+var object = require('object');
+var dot = require('dot');
 
 /**
  * Module exports.
