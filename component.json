@@ -7,7 +7,7 @@
     "component/object": "*",
     "visionmedia/debug": "*",
     "cloudup/dot": "*",
-    "slifszyc/mongo-eql": "*"
+    "slifszyc/mongo-eql": "0.1.2"
   },
   "devDependencies": {
     "visionmedia/mocha": "*",
