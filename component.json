@@ -6,7 +6,7 @@
     "component/type": "*",
     "component/object": "*",
     "visionmedia/debug": "*",
-    "cloudup/dot": "*",
+    "slifszyc/dot": "0.1.2",
     "slifszyc/mongo-eql": "0.1.2"
   },
   "devDependencies": {
